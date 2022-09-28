@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+/************** 
+    visual 
+***************/
+
+.visual { text-align: center; }
+.visual_pc { max-width: 100%; } /* 반응형처럼 창의 크게이 따라 이미지 사이즈 변화 */
+.visual_m { display: none;}
+
+@media (max-width:991px) {
+    .visual_m { 
+        display: block;
+        max-width: 100%;
+        margin-top: 60px;
+    }
+    .visual_pc { display: none;}
+}

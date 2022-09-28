@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+
+/************** 서브페이지 - 상품안내 PRODUCT 2 **************/
+
+/********* nav tab **********/
+
+.product_cont .nav {}
+.product_cont .nav ul.nav_tabs {
+    margin-top: 35px;
+    padding-top: 40px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+
+.product_cont .nav ul.nav_tabs::before,
+.product_cont .nav ul.nav_tabs::after {
+    box-sizing: border-box;
+}
+.product_cont .nav ul.nav_tabs li {
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    
+}
+.product_cont .nav ul.nav_tabs li {
+    position: relative;
+    bottom: -15px;
+    background: #fff;
+}
+
+.product_cont .nav ul.nav_tabs li a{
+    display: inline-block;
+    padding: 5px 15px ;
+    margin: 0 5px;
+    height: 30px;
+}
+.product_cont .nav ul.nav_tabs li a.all {
+    display: inline-block;
+    text-indent: -99999px;
+}
